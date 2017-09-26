@@ -5,6 +5,9 @@ const LISTS:ListsData[] = [{
         "img":'../assets/images/infor.svg',
         "title":"个人信息"
     },{
+        "img":'../assets/images/kecb.svg',
+        "title":"课程表"
+    },{
         "img":'../assets/images/curri.svg',
         "title":"成绩"
     },{
@@ -22,9 +25,6 @@ const LISTS:ListsData[] = [{
     },{
         "img":'../assets/images/news.svg',
         "title":"新闻"
-    },{
-        "img":'../assets/images/.svg',
-        "title":"个人信息"
     },{
         "img":'../assets/images/another.svg',
         "title":"其他"
