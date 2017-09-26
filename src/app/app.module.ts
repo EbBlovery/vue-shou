@@ -6,15 +6,18 @@ import { FormsModule } from '@angular/forms';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 
+import { AppRouting } from './app-routing'
+
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
+    LoginComponent
   ],
   imports: [
     FormsModule,
     BrowserModule,
     BrowserAnimationsModule,
+    AppRouting
   ],
   providers: [],
   bootstrap: [AppComponent]
