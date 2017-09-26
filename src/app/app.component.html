@@ -1,19 +1,18 @@
 <!--The content below is only a placeholder and can be replaced.-->
 
+<div class="header bg-primary">
+   <p>校园查询系统</p>
+</div>
 <div class="container">
    <div class="row">
        <div >
           <ul>
-             <li class="col-md-4">asdad</li>
-             <li class="col-md-4">asdad</li>
-             <li class="col-md-4">asdad</li>
-             <li class="col-md-4">asdad</li>
-             <li class="col-md-4">asdad</li>
-             <li class="col-md-4">asdad</li>
-             <li class="col-md-4">asdad</li>
-             <li class="col-md-4">asdad</li>
-             <li class="col-md-4">asdad</li>
-             <li class="col-md-4">asdad</li>
+             <li class="col-md-4 list" *ngFor="let list of lists">
+                <div>
+                   <img [src]="list.img" class="list-img">
+                   <p>{{list.title}}</p>
+                </div>
+             </li>
           </ul>
        </div>
    </div>
